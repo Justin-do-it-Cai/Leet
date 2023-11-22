@@ -46,3 +46,18 @@ int main()
     cout<<ans;
     return 0;
 }
+
+// class Solution:
+//     def minDeletion(self, nums: List[int]) -> int:
+//         length = len(nums)
+//         tag = 0
+//         ans = 0
+//         while tag != length - 1:
+//             if (tag + ans) % 2 == 0:
+//                 if nums[tag] == nums[tag + 1]:
+//                     ans += 1
+//             tag += 1
+//         if (length - ans) % 2 == 1:
+//             ans += 1
+//         return ans
+//python3
